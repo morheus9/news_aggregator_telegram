@@ -7,8 +7,8 @@
 # Avoid trying to fix flake8-bugbear (`B`) violations.
 # unfixable = ["B"]
 
-fixable = ["ALL"]
+lint.fixable = ["ALL"]
 
 # Ignore `E402` (import violations) in all `__init__.py` files, and in `path/to/file.py`.
-[per-file-ignores]
+[lint.per-file-ignores]
 "__init__.py" = ["E402"]
