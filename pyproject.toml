@@ -1,17 +1,18 @@
-[project]
+[tool.poetry]
 name = "news-aggregator-telegram"
 version = "0.1.0"
-description = "Add your description here"
-authors = [
-    { name = "Vyacheslav", email = "nodegopher@gmail.com" }
-]
-dependencies = [
-    "aiogram>=3.9.0",
-]
+description = ""
+authors = ["Vyacheslav <nodegopher@gmail.com>"]
 readme = "README.md"
-requires-python = ">= 3.8"
 
-[tool.rye]
-managed = true
-virtual = true
-dev-dependencies = []
+[tool.poetry.dependencies]
+python = "^3.12"
+aiogram = "^3.9.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.5.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
