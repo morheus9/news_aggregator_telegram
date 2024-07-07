@@ -1,9 +1,5 @@
 # tg_bot_trading
 
-sudo nano /etc/environment
-
-BOT_TOKEN=""
-
-reboot
-
+sudo nano ~/.bashrc
+export BOT_TOKEN=""
 echo "$BOT_TOKEN"
