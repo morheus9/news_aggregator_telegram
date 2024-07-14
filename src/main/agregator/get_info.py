@@ -1,6 +1,5 @@
 def main():
-    a = 5
-    return a
+    return 5
 
 
 print("2")
