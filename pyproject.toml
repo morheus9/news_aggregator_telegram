@@ -10,6 +10,9 @@ python = ">=3.12,<3.13"
 aiogram = "^3.10.0"
 
 
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.6.5"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"

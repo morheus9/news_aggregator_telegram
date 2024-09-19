@@ -1,8 +1,9 @@
 .vscode
 .idea
 .venv
-.env
+.env/*
 .ruff_cache
 # pixi environments
 .pixi
 *.egg-info
+.env
